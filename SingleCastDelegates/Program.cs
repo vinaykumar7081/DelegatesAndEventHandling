@@ -1,11 +1,11 @@
 ﻿using System;
 using SingleCastDelegates;
-using static SingleCastDelegates.MultiCastDelegates;
+using static SingleCastDelegates.EventHandeling;
 
 class Program
 {
     public static void Main(String[] args)
     {
-        MultiCastDelegates.ImplementationDelegates();
+        EventHandeling.ImplementEvent();
     }
 }
